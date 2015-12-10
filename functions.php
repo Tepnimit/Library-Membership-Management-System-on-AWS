@@ -34,14 +34,7 @@ echo $root;
     $message ->addPart($body, 'text/html');
 echo "WHAT";
     echo $message;
-            
-//$to = "tepnimitl@gmail.com";
-//$sub = "Te_subject_of_your_email";
-//$mess = "Dear User, \r\n\r\n";
-//$mess .= "This is your message \r\n";
-//$headers = "From: noreply@.com \r\n";
-//$test = mail($to,$subj,$mess,$headers); 
-//if (test){echo "TRUE";}else{echo "FALSE";}
+          
 
  
     $result = $mailer->send($message);
